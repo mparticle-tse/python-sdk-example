@@ -4,8 +4,8 @@ batch.environment = 'development'
 
 #config
 configuration = mparticle.Configuration()
-configuration.api_key = 'us1-4e27eceae24a0c4a85f014ec98de88b0'
-configuration.api_secret = 'ER3fm1YjEPg55IZueBgZj5-i5qjuygEw1lI-z_KiLMEu2HlINKdxMbI4X6GsZ772'
+configuration.api_key = 'API KEY'
+configuration.api_secret = 'SECRET'
 configuration.debug = True #enable logging of HTTP traffic
 api_instance = mparticle.EventsApi(configuration)
 
